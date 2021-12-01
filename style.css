@@ -1,0 +1,30 @@
+.confirm-dialog {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}
+
+.confirm-dialog-question {
+  padding-bottom: 2em;
+}
+
+.confirm-dialog-button-group {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1em;
+}
+
+.confirm-dialog-button {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 4px;
+  padding: 0.5em;
+  width: 60px;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
